@@ -1,0 +1,159 @@
+/**免责声明**/
+.wz{
+	padding: 17px 0;
+    background-color: #f5f5f5;
+    width: 100%;
+    margin-top: 65px;
+}
+.wz a{
+	color: #1a1a1a;
+    font-size: 14px;
+    font-weight: 800;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.declaration-main{
+	padding-top: 60px;
+	padding-bottom: 70px;
+}
+.declaration-main .title{
+	margin-bottom: 60px;
+	text-align: center;
+}
+.declaration-main .title .main-title {
+    color: #ddbda3;
+    font-size: 24px;
+    font-family: akBold;
+    letter-spacing: 1px;
+    margin: 0;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.declaration-main .title .sub-title {
+    font-size: 24px;
+    color: #343434;
+    font-weight: unset;
+    margin: 0;
+}
+.declaration-main .news-content p {
+    font-size: 14px;
+    line-height: 30px;
+    color: #212121;
+    font-weight: 100;
+}
+.declaration-main .news-content h3 {
+    font-weight: 400;
+    color: #343434;
+    font-size: 22px;
+    margin: 2rem 0 1rem;
+}
+.declaration-main .news-content ul li {
+    font-size: 14px;
+    line-height: 30px;
+    color: #1a1a1a;
+    font-weight: 100;
+}
+
+
+/**在线留言**/
+.email-main{
+    margin-top: 117px;
+    padding-top: 153px;
+    padding-bottom: 245px;
+    background: url(../images/email-bg.jpg) no-repeat;
+    background-size: cover;
+    margin-bottom: 140px;
+}
+.email-main .email-text{
+    width:846px;
+    margin: 0 auto;
+    padding: 70px 70px 30px 70px;
+    background-color: #FFF;
+    box-shadow: 0px 0px 30px #f1f1f1;
+}
+.email-main .email-text dl dt{
+    width:38%;
+    float: left;
+    margin-left: 1%;
+    margin-right: 5%;
+}
+.email-main .email-text dl dt label{
+    font-size: 12px;
+    font-weight: unset;
+    color: #ddbda3;
+    margin-top: 30px;
+}
+.email-main .email-text dl dt input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ddbda3;
+}
+.email-main .email-text dl dd{
+    width:50%;
+    float: left;
+    margin-left: 5%;
+    margin-right: 1%;
+}
+.email-main .email-text dl dd textarea{
+    width: 100%;
+    margin-top:30px;
+    line-height: 26px;
+    padding: 5px;
+    border: 1px solid #ddbda3;
+}
+.email-main .email-text .email-tj{
+    text-align: center;
+    margin-top: 78px;
+}
+.email-main .email-text .email-tj button{
+    padding: 10px 72px;
+    margin-bottom: 10px;
+    background-color: #ddbda3;
+    border: 1px solid #ddbda3;
+    font-size: 14px;
+    color: #FFF;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px #ddbda3;;
+}
+
+@media(min-width: 768px) and (max-width: 992px){
+    .email-main .email-text {
+        width: 100%;
+        margin: 0 auto;
+        padding: 70px 70px 30px 70px;
+        background-color: #FFF;
+        box-shadow: 0px 0px 30px #f1f1f1;
+    }
+}
+
+@media(max-width: 767px){
+   .email-main .email-text {
+    width: 100%;
+    margin: 0 auto;
+    padding:30px 20px 20px 20px;
+    background-color: #FFF;
+    box-shadow: 0px 0px 30px #f1f1f1;
+}
+.email-main .email-text dl dt {
+    width: 100%;
+    float: left;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.email-main .email-text dl dd {
+    width: 100%;
+    float: left;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.email-main {
+    margin-top: 117px;
+    padding-top: 53px;
+    padding-bottom: 75px;
+    background: url(../images/email-bg.jpg) no-repeat;
+    background-size: cover;
+    margin-bottom: 140px;
+}
+}
